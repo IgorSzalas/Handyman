@@ -1,0 +1,18 @@
+<section class="home-page-main-section">
+  <div class="card flex justify-content-center">
+    <p-inputGroup>
+      <input type="text" pInputText placeholder="Keyword" />
+      <button
+        type="button"
+        pButton
+        icon="pi pi-search"
+        class="p-button-warning"
+      ></button>
+    </p-inputGroup>
+    <div class="card flex justify-content-center">
+      <p-card header="Specjaliści w twojej okolicy!">
+        <div class="map" leaflet [leafletOptions]="options"></div>
+      </p-card>
+    </div>
+  </div>
+</section>
