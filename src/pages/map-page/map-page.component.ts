@@ -10,7 +10,7 @@ import * as Leaflet from 'leaflet';
   imports: [CardModule, LeafletModule, InputGroupModule, InputGroupAddonModule],
   selector: 'app-map-page',
   templateUrl: './map-page.component.html',
-  styleUrls: ['./map-page.component.css'],
+  styleUrls: ['./map-page.component.scss'],
 })
 export class MapPageComponent implements OnInit {
   constructor() {}
